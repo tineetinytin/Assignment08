@@ -18,9 +18,18 @@
 // movies[2] = 'Inception';
 // movies[3] = 'GoodFellas';
 // movies[4] = 'Seaspiracy';
-// console.log(movies[0]);
+// // console.log(movies[0]);
+// movies[2] = "BFG"
 // console.log(movies.length);
+// console.log(movies);
 
-//
+//LITERAL NOTATION & DELETE
+// let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy'];
+// delete movies[0];
+// console.log(movies);
 
-let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy'];
+//LITERAL NOTATION FOR/IN LOOP
+let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
+for (let i in movies) {
+    console.log(movies[i]);
+}
