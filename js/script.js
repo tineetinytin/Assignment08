@@ -85,16 +85,17 @@
 // let leastFavMovies = ['Twilight', 'Eclipse', 'Catwoman'];
 // movies = movies.concat(leastFavMovies);
 // console.log(movies.reverse());
-// let lastItem = movies[movies.length - 1];
-// console.log(lastItem);
+// movies = movies.pop();
+// console.log(movies);
 
 
 //FIRST ITEM
-Array.prototype.myname = () => {};
+// Array.prototype.myname = () => {};
 
-let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
-let leastFavMovies = ['Twilight', 'Eclipse', 'Catwoman'];
-movies = movies.concat(leastFavMovies);
-console.log(movies.reverse());
-let firstItem = movies[0];
-console.log(firstItem);
+// let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
+// let leastFavMovies = ['Twilight', 'Eclipse', 'Catwoman'];
+// movies = movies.concat(leastFavMovies);
+// console.log(movies.reverse());
+// movies = movies.shift();
+// console.log(movies);
+
