@@ -47,3 +47,33 @@
 // for (let i of movies) {
 //     console.log(i);
 // }
+
+
+//NEW ARRAY
+// Array.prototype.myname = () => {};
+
+// let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
+// let leastFavMovies = ['Twilight', 'Eclipse', 'Catwoman'];
+// console.log('Movies I like:');
+// console.log('');
+// for (let i in movies) {
+//     if(movies.hasOwnProperty(i)) {
+//         console.log(movies[i]);
+//     }
+// };
+// console.log('');
+// console.log('Movies I regret watching:');
+// console.log('');
+// for (let i in leastFavMovies) {
+//     if(leastFavMovies.hasOwnProperty(i)) {
+//         console.log(leastFavMovies[i]);
+//     }
+// };
+
+//CONCAT & REVERSE
+// Array.prototype.myname = () => {};
+
+// let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
+// let leastFavMovies = ['Twilight', 'Eclipse', 'Catwoman'];
+// movies = movies.concat(leastFavMovies);
+// console.log(movies.reverse());
