@@ -29,7 +29,12 @@
 // console.log(movies);
 
 //LITERAL NOTATION FOR/IN LOOP
+Array.prototype.myname = () => {};
+
 let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
 for (let i in movies) {
-    console.log(movies[i]);
+    if(movies.hasOwnProperty(i)) {
+        console.log(movies[i]);
+    }
+    
 }
