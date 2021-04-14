@@ -27,8 +27,6 @@
 // console.log(movies);
 
 // STEP 05
-// Array.prototype.myname = () => {};
-
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
 // for (let i in movies) {
 //     if(movies.hasOwnProperty(i)) {
@@ -37,16 +35,12 @@
 // }
 
 // STEP 06
-// Array.prototype.myname = () => {};
-
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
 // for (let i of movies) {
 //     console.log(i);
 // }
 
 // STEP 07
-// Array.prototype.myname = () => {};
-
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
 // movies.sort();
 // for (let i of movies) {
@@ -55,8 +49,6 @@
 
 
 // STEP 08
-// Array.prototype.myname = () => {};
-
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
 // let leastFavMovies = ['Twilight', 'Eclipse', 'Catwoman'];
 // console.log('Movies I like:');
@@ -76,8 +68,6 @@
 // };
 
 // STEP 09
-// Array.prototype.myname = () => {};
-
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
 // let leastFavMovies = ['Twilight', 'Eclipse', 'Catwoman'];
 // movies = movies.concat(leastFavMovies);
@@ -95,8 +85,6 @@
 
 
 // STEP 11
-// Array.prototype.myname = () => {};
-
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
 // let leastFavMovies = ['Twilight', 'Eclipse', 'Catwoman'];
 // movies = movies.concat(leastFavMovies);
