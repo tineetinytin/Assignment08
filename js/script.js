@@ -1,8 +1,8 @@
-//01 STRING ARRAY
+// STEP 01
 // let fave = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy'];
 // console.log(fave[1]);
 
-//02 CONSTRUCTOR METHOD
+// STEP 02
 // let movies = new Array(5);
 // movies[0] = 'Moana';
 // movies[1] = 'Soul';
@@ -11,7 +11,7 @@
 // movies[4] = 'Seaspiracy';
 // console.log(movies[0]);
 
-//03 CONSTRUCTOR METHOD + ADD NEW MOVIE IN 3RD POSITION
+// STEP 03
 // let movies = new Array(5);
 // movies[0] = 'Moana';
 // movies[1] = 'Soul';
@@ -21,12 +21,12 @@
 // movies.splice(2,0, 'BFG');//.splice(index,deletecount, item1, item2)
 // console.log(movies.length);
 
-//04 LITERAL NOTATION & DELETE
+// STEP 04
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy'];
 // movies.splice(0,1);
 // console.log(movies);
 
-//05 LITERAL NOTATION FOR/IN LOOP
+// STEP 05
 // Array.prototype.myname = () => {};
 
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
@@ -36,7 +36,7 @@
 //     }
 // }
 
-//06 FOR/OF LOOP
+// STEP 06
 // Array.prototype.myname = () => {};
 
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
@@ -44,7 +44,7 @@
 //     console.log(i);
 // }
 
-//07 SORTED
+// STEP 07
 // Array.prototype.myname = () => {};
 
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
@@ -54,7 +54,7 @@
 // }
 
 
-//08 NEW ARRAY
+// STEP 08
 // Array.prototype.myname = () => {};
 
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
@@ -75,7 +75,7 @@
 //     }
 // };
 
-//09 CONCAT & REVERSE
+// STEP 09
 // Array.prototype.myname = () => {};
 
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
@@ -83,7 +83,7 @@
 // movies = movies.concat(leastFavMovies);
 // console.log(movies.reverse());
 
-//10 LAST ITEM
+// STEP 10
 // Array.prototype.myname = () => {};
 
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
@@ -94,7 +94,7 @@
 // console.log(movies);
 
 
-//11 FIRST ITEM
+// STEP 11
 // Array.prototype.myname = () => {};
 
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
@@ -105,17 +105,16 @@
 // console.log(movies);
 
 
-// // ----------------------------12
+// STEP 12
 // let movies = ['Moana', 'Soul', 'Inception', 'GoodFellas', 'Seaspiracy', 'BFG', 'Toy Story'];
 // let leastFavMovies = ['Twilight', 'Eclipse', 'Catwoman'];
-// movies = movies.concat(leastFavMovies);
-// console.log(movies);
-// let hateMovies = movies.slice(7);
-// console.log(hateMovies);
-// console.log(movies);
-//------------------------------
 
-//------------------------------13
+// for (let movie in leastFavMovies) {
+//     leastFavMovies[movie] = movies[movie]
+// };
+// console.log(leastFavMovies);
+
+// STEP 13
 // let movies = [
 //     ['Moana', 1],
 //     ['Soul', 2],
@@ -123,47 +122,39 @@
 //     ['Toy Story', 4],
 //     ['GoodFellas', 5]
 // ];
-// console.table(movies);
 
-// movies.filter((movie) => {
-//     return typeof item === 'string';
-// });
-// console.log(movies);
-// let movies = ['Moana', 1, 'Soul', 2, 'Inception', 3, 'Toy Story', 4, 'GoodFellas', 5];
-// let rank = movies.filter((item) => {
-//     return typeof item === 'string';
-// });
-// console.log(rank);
-//--------------------------------
+// movies.forEach((i) => {
+//     console.log(`${i[0]}`);});
 
-// let employees = ['Rollo', 'Misty', 'Jordan', 'Elene', 'Ave', 'Martin'];
+
+
+// STEP 14
+// let employees = ['Zak', 'Jessica', 'Mark', 'Fred', 'Sally'];
 // function showEmployee(employees){
 //     console.log('Employees:');
 //     console.log('');
-//     for (let i in employees) {
-//         if(employees.hasOwnProperty(i)) {
-//             console.log(employees[i]);
-//             }
-//     };
-// showEmployee();
+//     for(let i of employees) {
+//         console.log(i.toUpperCase() + '\n');
+//     }
+// }
+// showEmployee(employees);
 
-// console.log('Employees:');
-//     console.log('');
-//     for (let i in employees) {
-//         if(employees.hasOwnProperty(i)) {
-//             console.log(employees[i]);
-//         }
-//     };
+// STEP 15
+// function filterValues(arr) {
+//     arr = arr.filter(value => value);
+//     return arr;
+// };
+// console.log(filterValues([58, '', 'abcd', true, null, false, 0]));
 
+// STEP 16
+// function ranNum(items){
+//   return items[Math.floor(Math.random()*items.length)];   
+// };
+// let items = [2, 4, 21, 36, 25];
+// console.log(ranNum(items));
 
-//15 FILTER VALUES
-// let data = [58, '', 'abcd', true, null, false, 0];
-// let filterData = data.filter((item) => {
-//     return typeof item === 'false' || typeof item === null || typeof item === 0 || typeof item === '';
-// });
-// console.log(filterData);
+// STEP 17 
+// let numbers = [69, 420, 108, 47];
+// let numMax = Math.max(...numbers); 
 
-
-
-//17 LARGEST NUMBER
-console.log(math.max());
+// console.log(numMax);
